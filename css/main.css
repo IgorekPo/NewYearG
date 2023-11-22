@@ -60,7 +60,6 @@ body {
 }
 
 .favorite__title,
-.reviews__title,
 .why__title {
   text-align: center;
   font-family: CalSans;
@@ -69,8 +68,18 @@ body {
   line-height: 1.2;
 }
 .favorite__title span,
-.reviews__title span,
 .why__title span {
+  color: #ff6428;
+}
+.reviews__title {
+  text-align: center;
+  font-family: CalSans;
+  color: #606060;
+  font-size: 18px;
+  line-height: 1.2;
+}
+.reviews__title span {
+  font-weight: bold;
   color: #ff6428;
 }
 
@@ -236,7 +245,7 @@ h5 {
 .full-screen__body {
   padding: 50px 15px;
   background-color: rgba(0, 0, 0, 0.07);
-  color: white;
+  color: rgb(123 246 255);
   position: relative;
   z-index: 2;
   display: flex;
@@ -354,9 +363,11 @@ li {
 
 @media (max-width: 767.98px) {
   .favorite__title,
-  .reviews__title,
   .why__title {
     font-size: 28px;
+  }
+  .reviews__title {
+    font-size: 18px;
   }
 }
 .page {
@@ -912,7 +923,7 @@ li {
 
 @media (max-width: 500.98px) {
   .slide-swiper-reviews__text p {
-    font-size: 26px;
+    font-size: 18px;
   }
   .favorite__title {
     font-size: 18px;
@@ -1061,6 +1072,7 @@ li {
   border: 1px solid rgb(93, 93, 93);
 }
 .information__block-text {
+  font-size: 14px;
   padding-left: 5px;
   display: flex;
   align-items: center;
