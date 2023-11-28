@@ -147,7 +147,7 @@ let select = document.getElementById('select-velue');
 select.addEventListener('change', function () {
   let getValue = this.value;
   let totalPay = document.querySelector('.value-price');
-  let showPay = getValue * 757;
+  let showPay = getValue * 769;
   totalPay.innerHTML = `${showPay} грн.`;
 });
 
